@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wepage 1</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        h2{
+            background-color: rgb(233, 135, 66);
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align:center">
+        <h2 >Welcome guest</h2>
+        <p>This page will refresh automatically after 5 second and redirect to....</p>
+    </div>
+    <script>
+      setTimeout(function(){
+        window.location.replace("webpage2.html");
+      },5000);
+    </script>
+</body>
+</html>
